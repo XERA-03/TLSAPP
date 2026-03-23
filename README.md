@@ -6,7 +6,7 @@ Under the hood, the app uses SpaCy (an open-source NLP library) and pre-trained 
 
 ## 🔥 Features
 
-- **Document Ingestion & OCR:** Users upload contracts (PDF or image). Text is extracted automatically using PyMuPDF for PDFs and Tesseract OCR for images. Tesseract is a **powerful open-source OCR engine** that is “one of the most popular and powerful” tools for converting scanned text to digital text【19†L19-L27】, making it ideal for digitizing contracts.  
+- **Document Ingestion & OCR:** Users upload contracts (PDF or image). Text is extracted automatically using PyMuPDF for PDFs and Tesseract OCR for images. Tesseract is a **powerful open-source OCR engine** that is “one of the most popular and powerful” tools for converting scanned text to digital text, making it ideal for digitizing contracts.  
 - **NLP-Based Classification:** The app classifies the contract type (e.g. NDA, SLA) using NLP. We use spaCy (with `en_core_web_sm`) for base language processing and Hugging Face’s zero-shot-classification pipeline to label documents on the fly.  
 - **Clause Identification & Risk Scoring:** Key clauses (e.g. termination, liability) are automatically identified and flagged. The system highlights unusual or high-risk terms, and computes a **Contract Intelligence Score** by combining clause analysis with historical benchmarks. Modern contract analytics similarly “flags deviations” and “assigns risk scores” to expedite reviews.  
 - **Fraud Detection:** The app scans for fraud indicators using keyword checks and AI. For example, a zero-shot classifier distinguishes “fraud” vs. “legitimate” contexts. Suspicious clauses (hidden fees, onerous penalties) are highlighted for review.  
