@@ -1,4 +1,4 @@
-# Contract Intelligence Web App (Detailed Documentation)
+# Contract Intelligence 
 
 **Overview:** This AI-powered web application automates contract review and analytics. It uses OCR, NLP, and ML to convert unstructured contracts (PDFs or scanned images) into actionable insights. It **extracts key clauses, detects fraud indicators, assesses financial terms, and computes a risk/compliance score**. In effect, it helps legal and business teams **speed up reviews, improve compliance, and reduce risk**【5†L178-L186】. The target users are legal practitioners, contract managers, and business analysts who need quick, data-driven contract insights without manual labor.
 
