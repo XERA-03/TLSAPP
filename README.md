@@ -31,10 +31,7 @@ Under the hood, the app uses SpaCy (an open-source NLP library) and pre-trained 
 ## 📥 Installation & Setup
 
 1. **Clone the repository:**  
-   ```bash
-   git clone https://github.com/your-username/contract-intelligence.git
-   cd contract-intelligence
-   ```
+ 
 
 2. **Install Python dependencies:**  
    ```bash
